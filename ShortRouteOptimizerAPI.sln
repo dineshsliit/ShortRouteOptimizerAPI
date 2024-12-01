@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortRouteOptimizerAPI", "ShortRouteOptimizerAPI\ShortRouteOptimizerAPI.csproj", "{578AB69D-09FD-4E81-A373-208C21BE5FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortRouteOptimizerAPI.Models", "ShortRouteOptimizerAPI.Models\ShortRouteOptimizerAPI.Models.csproj", "{A81C5FE7-3D67-4993-AC5B-CCADA93E98C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortRouteOptimizerAPI.Services", "ShortRouteOptimizerAPI.Services\ShortRouteOptimizerAPI.Services.csproj", "{4E033B9E-7B29-48B9-8130-CE18D4B4F5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortRouteOptimizerAPI.DataAccess", "ShortRouteOptimizerAPI.DataAccess\ShortRouteOptimizerAPI.DataAccess.csproj", "{3739C72B-EE27-40FE-B18F-6AD6066A22DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortRouteOptimizerAPI.Tests", "ShortRouteOptimizerAPI.Tests\ShortRouteOptimizerAPI.Tests.csproj", "{42841F77-1B8E-4183-8BD5-8D2E9786BB2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{578AB69D-09FD-4E81-A373-208C21BE5FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578AB69D-09FD-4E81-A373-208C21BE5FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578AB69D-09FD-4E81-A373-208C21BE5FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578AB69D-09FD-4E81-A373-208C21BE5FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81C5FE7-3D67-4993-AC5B-CCADA93E98C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81C5FE7-3D67-4993-AC5B-CCADA93E98C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81C5FE7-3D67-4993-AC5B-CCADA93E98C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81C5FE7-3D67-4993-AC5B-CCADA93E98C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E033B9E-7B29-48B9-8130-CE18D4B4F5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E033B9E-7B29-48B9-8130-CE18D4B4F5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E033B9E-7B29-48B9-8130-CE18D4B4F5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E033B9E-7B29-48B9-8130-CE18D4B4F5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3739C72B-EE27-40FE-B18F-6AD6066A22DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3739C72B-EE27-40FE-B18F-6AD6066A22DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3739C72B-EE27-40FE-B18F-6AD6066A22DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3739C72B-EE27-40FE-B18F-6AD6066A22DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42841F77-1B8E-4183-8BD5-8D2E9786BB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42841F77-1B8E-4183-8BD5-8D2E9786BB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42841F77-1B8E-4183-8BD5-8D2E9786BB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42841F77-1B8E-4183-8BD5-8D2E9786BB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

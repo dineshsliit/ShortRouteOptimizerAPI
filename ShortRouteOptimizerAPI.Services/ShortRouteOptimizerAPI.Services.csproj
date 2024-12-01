@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShortRouteOptimizerAPI.DataAccess\ShortRouteOptimizerAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\ShortRouteOptimizerAPI.Models\ShortRouteOptimizerAPI.Models.csproj" />
+  </ItemGroup>
+
+</Project>
